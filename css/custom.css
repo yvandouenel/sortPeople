@@ -1,0 +1,24 @@
+#list li {
+  border: 1px solid #003350;
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  padding: 20px;
+  margin: 10px;
+  width: 120px;
+  font-size: 1em;
+  transition: box-shadow 0.3s ease-in-out, width 1s ease-in-out, font-size 1s ease-in-out;
+}
+#list li:hover {
+  cursor: pointer;
+}
+.selected-user {
+  box-shadow: 0 0 0 0 rgba(0,0,0,0.75) !important;
+  width: 240px !important;
+  font-size: 2em !important;
+  border: 1px solid #F9BA00;
+}
+.misssing-user {
+  font-size: 1em !important;
+  background-color: grey !important;
+  width: 120px !important;
+  box-shadow: 0 0 0 0 rgba(0,0,0,0.75) !important;
+}
